@@ -5,8 +5,15 @@
     /// </summary>
     class DocumentState
     {
-        public string Content { get; set; } = string.Empty;
-        public string FontName { get; set; } = string.Empty;
-        public int FontSize { get; set; }
+        public string Content { get; }
+        public string FontName { get; }
+        public int FontSize { get; }
+
+        public DocumentState(string content, string fontName, int fontSize)
+        {
+            Content = content;
+            FontName = fontName;
+            FontSize = fontSize;
+        }
     }
 }

@@ -9,13 +9,7 @@
         public string FontName { get; set; } = "Arial";
         public int FontSize { get; set; } = 12;
 
-        public DocumentState CreateState() =>
-            new()
-            { 
-                Content = Content, 
-                FontName = FontName, 
-                FontSize = FontSize 
-            };
+        public DocumentState CreateState() => new(Content, FontName, FontSize);
 
         public void RestoreState(DocumentState state)
         {
@@ -24,13 +18,11 @@
             FontSize = state.FontSize;
         }
 
-        public override string ToString()
-        {
-            return "Document { " +
-                   "content='" + Content + '\'' +
-                   ", fontName='" + FontName + '\'' +
-                   ", fontSize=" + FontSize +
-                   " }";
-        }
+        public override string ToString() =>
+            "Document { " +
+            "content='" + Content + '\'' +
+            ", fontName='" + FontName + '\'' +
+            ", fontSize=" + FontSize +
+            " }";
     }
 }
