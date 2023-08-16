@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility", "Ch
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor", "Visitor\Visitor.csproj", "{12FE54DD-3049-4F85-A961-32BA5A8756CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{9880976E-DC3E-4121-9512-136F437565AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Composite.csproj", "{9880976E-DC3E-4121-9512-136F437565AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{4AE36B27-19BB-4457-BCBD-5A275A60DB1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{9880976E-DC3E-4121-9512-136F437565AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9880976E-DC3E-4121-9512-136F437565AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9880976E-DC3E-4121-9512-136F437565AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AE36B27-19BB-4457-BCBD-5A275A60DB1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AE36B27-19BB-4457-BCBD-5A275A60DB1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AE36B27-19BB-4457-BCBD-5A275A60DB1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AE36B27-19BB-4457-BCBD-5A275A60DB1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
