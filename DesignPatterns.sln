@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor", "Visitor\Visitor.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Composite.csproj", "{9880976E-DC3E-4121-9512-136F437565AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{4AE36B27-19BB-4457-BCBD-5A275A60DB1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{4AE36B27-19BB-4457-BCBD-5A275A60DB1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{F112FCCB-4B7F-4A34-9F3E-AE8D205774D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{4AE36B27-19BB-4457-BCBD-5A275A60DB1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AE36B27-19BB-4457-BCBD-5A275A60DB1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AE36B27-19BB-4457-BCBD-5A275A60DB1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F112FCCB-4B7F-4A34-9F3E-AE8D205774D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F112FCCB-4B7F-4A34-9F3E-AE8D205774D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F112FCCB-4B7F-4A34-9F3E-AE8D205774D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F112FCCB-4B7F-4A34-9F3E-AE8D205774D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
