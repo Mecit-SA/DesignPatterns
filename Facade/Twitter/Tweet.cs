@@ -1,0 +1,6 @@
+﻿namespace Facade
+{
+    class Tweet
+    {
+    }
+}
