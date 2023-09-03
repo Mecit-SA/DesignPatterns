@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{523EF896-B727-436D-86EB-0FF8010D416D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{2F5D3534-D1D0-40CB-8F0E-FD52718A2B1E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{523EF896-B727-436D-86EB-0FF8010D416D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{523EF896-B727-436D-86EB-0FF8010D416D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{523EF896-B727-436D-86EB-0FF8010D416D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F5D3534-D1D0-40CB-8F0E-FD52718A2B1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F5D3534-D1D0-40CB-8F0E-FD52718A2B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F5D3534-D1D0-40CB-8F0E-FD52718A2B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F5D3534-D1D0-40CB-8F0E-FD52718A2B1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
